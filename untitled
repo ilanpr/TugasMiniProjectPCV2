@@ -1,0 +1,14 @@
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+import os
+
+img = cv2.imread("input/parking.jpg")
+H, W = img.shape[:2]
+
+os.makedirs("output/Hasil Olah", exist_ok=True)
+
+img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+lab = cv2.cvtColor(img, cv2.COLOR_BGR2LAB)
