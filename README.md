@@ -1,8 +1,7 @@
-# TugasMiniProjectPCV2
-# MP2 - Object Counting (Parkiran Aerial)
+#Object Counting (Parkiran Aerial)
 
-Nama  :Ilan Hawwari Prasojo 
-NRP   :5024241039
+**Nama:** Ilan Hawwari Prasojo  
+**NRP:** 5024241039 
 
 ---
 
